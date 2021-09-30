@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Cash Register Manager</h1>
+      <!-- <div class="container"> -->
+      <p class="description">
+        Enter the bill amount and the cash given by the customer and know
+        minimum number of notes to return.
+      </p>
+      <label class="input-label" for="bill-amount">Bill Amount:</label>
+      <input class="input" id="bill-amount" type="text" />
+      <!-- <button id="next-button">NEXT</button> -->
+      <!-- </div> -->
+
+      <!-- <div class="after-next"> -->
+      <label class="input-label" for="cash-given">Cash Given:</label>
+      <input class="input" id="cash-given" type="text" />
+      <br />
+      <button id="check-button">CHECK</button>
+      <!-- </div> -->
+
+      <!-- <div class="container"> -->
+      <!-- <p id="error-message" style="display: block">Invalid Bill Amount</p> -->
+      <table class="change-table">
+        <caption>
+          Change to be Returned
+        </caption>
+        <tbody>
+          <tr>
+            <th>No of Notes</th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+          </tr>
+          <tr>
+            <th>Note</th>
+            <td class="no-of-notes">2000</td>
+            <td class="no-of-notes">500</td>
+            <td class="no-of-notes">100</td>
+            <td class="no-of-notes">20</td>
+            <td class="no-of-notes">10</td>
+            <td class="no-of-notes">5</td>
+            <td class="no-of-notes">1</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- </div> -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
